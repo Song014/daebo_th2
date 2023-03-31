@@ -7,7 +7,5 @@ public class MainEntry {
 		while(cnt++<10) {
 			System.out.println(cnt);
 		}
-		
-		
 	}
 }
