@@ -7,10 +7,10 @@ public class MainEntry {
 //			System.out.println(i);
 //		}
 		
-		for(int i = 1; i<11;i++) {
-			if(i==7) continue;
-			System.out.println(i);
-		}
+//		for(int i = 1; i<11;i++) {
+//			if(i==7) continue;
+//			System.out.println(i);
+//		}
 		
 //		for(int i=1;i<11;i++) {
 //			System.out.println("나는 i다");
@@ -20,6 +20,11 @@ public class MainEntry {
 //				System.out.println("j = "+j);
 //			}
 //			System.out.println();
+//		}
+		
+//		for(int i = 1;i<101; i++) {
+//			if(i%2==0) continue;
+//			System.out.println(i);
 //		}
 	}
 }
