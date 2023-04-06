@@ -22,3 +22,4 @@ public class MainEntry {
 		System.out.println(Integer.parseInt(args[0]) + Integer.parseInt(args[2]));
 	}
 }
+
