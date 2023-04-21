@@ -24,7 +24,7 @@ class Person {
 	@Override
 	public boolean equals(Object obj) { // 객체 주소 비교해서 처음에는 false가 맞고 오버라이드해서
 		if (obj instanceof Person) {
-			Person temp = (Person) obj;
+			Person temp =(Person) obj;
 			return name.equals(temp.name) ; // name = 송기석 temp 송기석
 		}
 		return false;

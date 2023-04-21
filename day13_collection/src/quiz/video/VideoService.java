@@ -9,5 +9,4 @@ public interface VideoService {
 	public void update(int index);
 
 	public void view();
-
 }

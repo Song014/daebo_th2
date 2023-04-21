@@ -12,7 +12,6 @@ public class Student {
 		this.score = new Score(kor, eng, com);
 	}
 
-
 	public String getName() {
 		return name;
 	}

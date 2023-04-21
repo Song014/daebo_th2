@@ -80,10 +80,6 @@ public class Score {
 		}
 	}
 
-//	private void setRank() {
-//		
-//	}
-
 	@Override
 	public String toString() {
 		return String.format("국어 = %d 영어 = %d 전산 = %d 총점 = %d 평균 = %.3f 학점 = %c",kor,eng,com,total,avg,grade);
