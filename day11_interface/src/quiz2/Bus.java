@@ -5,7 +5,6 @@ public class Bus implements Transport {
 
 	@Override
 	public void move() {
-		// TODO Auto-generated method stub
 		while (speed < 5) {
 			speed += accelerator * 5;
 			System.out.println("Aceelerating ...." + speed);

@@ -1,5 +1,6 @@
 package quiz;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Score2 {
@@ -43,8 +44,6 @@ public class Score2 {
 		return avg;
 	}
 
-
-
 	public void input(int n) {
 		Scanner sc = new Scanner(System.in);
 
@@ -80,5 +79,11 @@ public class Score2 {
 			}
 		}
 		avg = total / 3.0;
+	}
+
+	@Override
+	public String toString() {
+		return "Score2 [name=" + name + ", score=" + Arrays.toString(score) + ", total=" + total + ", grade=" + grade
+				+ ", rank=" + rank + ", avg=" + avg + "]";
 	}
 }
