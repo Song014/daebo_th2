@@ -10,8 +10,8 @@ public class GiftSelect {
 	public static void main(String[] args) 
 			  throws ClassNotFoundException,  SQLException {
 		//1. Driver load......  exception
-//		Class.forName("oracle.jdbc.OracleDriver");
 		//2. Connection & Open
+	    Class.forName("oracle.jdbc.OracleDriver");
 		Connection conn = DriverManager.getConnection(
 				"jdbc:oracle:thin:@192.168.0.30:1521:orcl", 
 				"kingsmile", "oracle" );
