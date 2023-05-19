@@ -9,8 +9,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Scanner;
 
+import ex01.jdbc.JdbcUtill;
 import model.GogakVO;
-import utill.JdbcUtill;
 
 public class Controller {
     private static Connection conn;
